@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercicio 16/11</title>
+</head>
+<body>
+    
+    <button id="ex0">Exercicio 0</button>
+    <button id="ex1">Exercicio 1</button>
+        
+    <script>
+    
+        const button0 = document.getElementById('ex0');
+        const button1 = document.getElementById('ex1');
+
+        button0.onclick = function(){
+            num = parseFloat(prompt("Digite um Número"));
+            nome = prompt("Digite seu nome");      
+
+            document.writeln(`Olá, ${nome}</br>`);
+            document.writeln(`Você digitou o número: ${num}`);
+        }
+
+    </script>
+</body>
+</html>

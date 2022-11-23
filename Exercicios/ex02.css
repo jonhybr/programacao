@@ -1,0 +1,41 @@
+table{
+    border: 2px solid;
+    border-collapse: collapse;
+    width: 40%;
+    margin-left: 30%;    
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+button{
+    background-color: aquamarine;
+    color: black;
+    border: 1px solid;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+caption{
+    padding: 10px;
+}
+
+img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+textarea{
+    resize: none;
+    margin-left: 10px;
+}
+
+td{
+    padding: 10px;
+    padding-right: 20px;
+}
+
+th, thead{
+    background-color: aqua;
+    padding: 5px;
+}
